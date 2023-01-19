@@ -1,0 +1,16 @@
+package kr.co.ezenac.operator;
+
+public class LogicalOperatorTest {
+
+	public static void main(String[] args) {
+		
+		int num1 = 11;
+		int num2 = 22;
+		boolean result;
+		
+		result = (num1 > 1) && (num1 < 10);
+		System.out.println(result);
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package kr.co.ezenac.variable02;
+
+public class CharacterTest {
+
+	public static void main(String[] args) {
+//		char ch1 = 'A';
+//		System.out.println(ch1);
+//		System.out.println((int)ch1);
+//		
+		int ch2 =66;
+		System.out.println((char)ch2);
+	}
+
+}

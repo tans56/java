@@ -1,0 +1,14 @@
+package kr.co.ezenac.operator;
+
+public class SignOperatorTest {
+
+	public static void main(String[] args) {
+		
+		short num1 = 5;
+		System.out.println(+num1);		//불필요한 +연산
+		System.out.println(-num1);
+		
+	
+	}
+
+}

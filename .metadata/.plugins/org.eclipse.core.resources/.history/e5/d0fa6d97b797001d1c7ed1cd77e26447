@@ -1,0 +1,10 @@
+package kr.co.ezenac.consoleinputoutput;
+
+public class Printftest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,27 @@
+package kr.co.ezenac.consoleinputoutput;
+
+import java.util.Scanner;
+
+public class ScannerTest {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);		//scanner 객체 생성
+		
+		
+		System.out.println("숫자를 1 2 3 이렇게 입력하고 엔터를 입력하세요.");
+		
+		int num1 = scan.nextInt();
+		int num2 = scan.nextInt();
+		int num3 = scan.nextInt();
+		
+		
+		System.out.printf("%d %d %d", num1, num2, num3);
+		
+		
+		scan.close();
+		
+		
+	}
+
+}
