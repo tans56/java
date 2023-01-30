@@ -3,4 +3,12 @@
     <fullyQualifiedTypeName name="org.graalvm.compiler.nodes.calc.ObjectEqualsNode"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.field02.FieldInit"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.mamber.Student"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.mamber02.Student"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.costructor.Book"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.infohiding.Student1"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.infohiding.Student2"/>
 </qualifiedTypeNameHistroy>
