@@ -22,8 +22,10 @@ class Student2 {
 			System.out.println("나이가 부적합 합니다.");
 			this.age = 0;
 			return;
+		}else if(age> 0 || age <150) {
+			this.age = age;
 		}
-		this.age = age;
+		
 	}
 }
 
@@ -42,7 +44,7 @@ public class PrivateTest {
 		Student2 student2 = new Student2("진도준", 21);
 		student2.name = "윤현우";
 		int age = student2.getAge();
-		student2.setAge(-10);
+		student2.setAge(50);
 		System.out.printf("%s의 나이는 %d살입니다.\n",
 				student2.name , age);
 		
