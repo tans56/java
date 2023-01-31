@@ -12,4 +12,6 @@
     <fullyQualifiedTypeName name="kr.co.ezenac.infohiding.Student1"/>
     <fullyQualifiedTypeName name="kr.co.ezenac.infohiding.Student2"/>
     <fullyQualifiedTypeName name="kr.co.ezenac.field.Training.Car"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.overloading02.Student"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.overloading03.Car"/>
 </qualifiedTypeNameHistroy>
