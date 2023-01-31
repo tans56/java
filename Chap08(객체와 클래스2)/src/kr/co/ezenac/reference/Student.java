@@ -1,6 +1,6 @@
 package kr.co.ezenac.reference;
 
-public class Student {
+public class Student {			//객체 안에서 객체 쓰기
 	
 	int studentId;
 	String studentName;
