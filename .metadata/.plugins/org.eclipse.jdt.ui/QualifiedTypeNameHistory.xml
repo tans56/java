@@ -3,7 +3,6 @@
     <fullyQualifiedTypeName name="org.graalvm.compiler.nodes.calc.ObjectEqualsNode"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.Object"/>
     <fullyQualifiedTypeName name="kr.co.ezenac.field02.FieldInit"/>
     <fullyQualifiedTypeName name="kr.co.ezenac.mamber.Student"/>
     <fullyQualifiedTypeName name="kr.co.ezenac.mamber02.Student"/>
@@ -14,4 +13,16 @@
     <fullyQualifiedTypeName name="kr.co.ezenac.field.Training.Car"/>
     <fullyQualifiedTypeName name="kr.co.ezenac.overloading02.Student"/>
     <fullyQualifiedTypeName name="kr.co.ezenac.overloading03.Car"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.encapsulation.DisplayAddress"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.reference.Student"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.collabration.Bus"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.collabration.Student"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.collabration.Subway"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.collabration02.Student"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.collabration02.Taxi"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.global.Cat"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.global02.Employee"/>
 </qualifiedTypeNameHistroy>
