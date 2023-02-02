@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="org.graalvm.compiler.nodes.calc.ObjectEqualsNode"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="kr.co.ezenac.field02.FieldInit"/>
     <fullyQualifiedTypeName name="kr.co.ezenac.mamber.Student"/>
     <fullyQualifiedTypeName name="kr.co.ezenac.mamber02.Student"/>
     <fullyQualifiedTypeName name="kr.co.ezenac.costructor.Book"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="kr.co.ezenac.infohiding.Student1"/>
     <fullyQualifiedTypeName name="kr.co.ezenac.infohiding.Student2"/>
     <fullyQualifiedTypeName name="kr.co.ezenac.field.Training.Car"/>
@@ -24,5 +22,16 @@
     <fullyQualifiedTypeName name="kr.co.ezenac.collabration02.Taxi"/>
     <fullyQualifiedTypeName name="kr.co.ezenac.global.Cat"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.runfirst.Ex1.Solution"/>
     <fullyQualifiedTypeName name="kr.co.ezenac.global02.Employee"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.singleton.CompanyTest"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.singleton.Company"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.singleton02.CarFactory"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.singleton02.Car"/>
+    <fullyQualifiedTypeName name="ko.co.ezenac.array.CharArrayTest"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="ko.co.ezenac.array03.Book"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>

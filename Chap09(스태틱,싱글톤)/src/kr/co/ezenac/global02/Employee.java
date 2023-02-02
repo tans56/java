@@ -12,11 +12,23 @@ public class Employee {
 		employeeId = serialNum;
 	}
 	
+	/*	
+	 *  
+	 *  인스턴스 생성 전에 호출 될 수 있으므로 static 메서드 내부에서는
+	 *  인스턴스 변수를 사용할수 없음.
+	 */
 	public static void setSerialNum(int serialNum) {
+		int i = 0;
 		
+		//employeeName = "kim";		//오류발생
+		Employee.serialNum = serialNum;
 		
 	}
 	
+	public static int getSerialNum() {
+		return serialNum;
+	}
+
 	public int getEmployeeId() {
 		return employeeId;
 	}
