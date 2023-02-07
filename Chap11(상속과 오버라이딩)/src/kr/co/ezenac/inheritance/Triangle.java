@@ -4,7 +4,7 @@ public class Triangle extends Shape {
 					
 	Point[] point;	
 	
-	public Triangle() {		
+	public Triangle() {	
 		this(new Point(0, 0),new Point(50, 50),new Point(100, 100));
 				
 	}
