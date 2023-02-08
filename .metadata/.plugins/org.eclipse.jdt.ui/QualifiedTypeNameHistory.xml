@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.graalvm.compiler.nodes.calc.ObjectEqualsNode"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="kr.co.ezenac.field02.FieldInit"/>
-    <fullyQualifiedTypeName name="kr.co.ezenac.mamber.Student"/>
-    <fullyQualifiedTypeName name="kr.co.ezenac.mamber02.Student"/>
-    <fullyQualifiedTypeName name="kr.co.ezenac.costructor.Book"/>
-    <fullyQualifiedTypeName name="kr.co.ezenac.infohiding.Student1"/>
-    <fullyQualifiedTypeName name="kr.co.ezenac.infohiding.Student2"/>
-    <fullyQualifiedTypeName name="kr.co.ezenac.field.Training.Car"/>
     <fullyQualifiedTypeName name="kr.co.ezenac.overloading02.Student"/>
     <fullyQualifiedTypeName name="kr.co.ezenac.overloading03.Car"/>
     <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
@@ -46,7 +37,6 @@
     <fullyQualifiedTypeName name="kr.co.ezenac.inheritance.Triangle"/>
     <fullyQualifiedTypeName name="kr.co.ezenac.membership02.Customer"/>
     <fullyQualifiedTypeName name="kr.co.ezenac.membership02.VIPCustomer"/>
-    <fullyQualifiedTypeName name="kr.co.ezenac.polymorphism.Dog"/>
     <fullyQualifiedTypeName name="kr.co.ezenac.polymorphism.Tiger"/>
     <fullyQualifiedTypeName name="kr.co.ezenac.polymorphism.Eagle"/>
     <fullyQualifiedTypeName name="kr.co.ezenac.polymorphism.AnimalTest"/>
@@ -55,4 +45,19 @@
     <fullyQualifiedTypeName name="kr.co.ezenac.membership.GoldCustomer"/>
     <fullyQualifiedTypeName name="kr.co.ezenac.membership.VIPCustomer"/>
     <fullyQualifiedTypeName name="kr.co.ezenac.membership.Customer"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.polymorphism.Dog"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.abstractclass.Computer"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.abstractclass.DeskTop"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.abstractclass.NoteBook"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.abstractclass.MyNoteBook"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.templatepattern.DeepLCar"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.templatepattern.ManualCar"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.interface1.Calculator"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.interface1.CompleteCalculator"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.interface2.Audio"/>
+    <fullyQualifiedTypeName name="javax.print.DocFlavor.READER"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.interface2.RemoteControl"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.interface2.Television"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.utillinterface.userInfo.UserInfoDTO"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.utillinterface.userInfo.dao.UserInfoDAO"/>
 </qualifiedTypeNameHistroy>
