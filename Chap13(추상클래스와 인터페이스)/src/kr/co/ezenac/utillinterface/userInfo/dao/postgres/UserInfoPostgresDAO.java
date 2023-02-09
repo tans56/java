@@ -7,25 +7,25 @@ public class UserInfoPostgresDAO implements UserInfoDAO {
 
 	@Override
 	public void insertUserInfo(UserInfoDTO userInfoDTO) {
-		// TODO Auto-generated method stub
+		System.out.println("insert into Postgres DB userId = " + userInfoDTO.getUserId());
 		
 	}
 
 	@Override
 	public void selectUserInfo(UserInfoDTO userInfoDTO) {
-		// TODO Auto-generated method stub
+		System.out.println("select into Postgres DB userId = " + userInfoDTO.getUserId());
 		
 	}
 
 	@Override
 	public void updateUserInfo(UserInfoDTO userInfoDTO) {
-		// TODO Auto-generated method stub
+		System.out.println("update into Postgres DB userId = " + userInfoDTO.getUserId());
 		
 	}
 
 	@Override
 	public void deleteUserInfo(UserInfoDTO userInfoDTO) {
-		// TODO Auto-generated method stub
+		System.out.println("delete into Postgres DB userId = " + userInfoDTO.getUserId());
 		
 	}
 
