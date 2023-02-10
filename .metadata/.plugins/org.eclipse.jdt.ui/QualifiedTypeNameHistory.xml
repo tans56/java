@@ -1,27 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="kr.co.ezenac.overloading02.Student"/>
-    <fullyQualifiedTypeName name="kr.co.ezenac.overloading03.Car"/>
-    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
-    <fullyQualifiedTypeName name="kr.co.ezenac.encapsulation.DisplayAddress"/>
-    <fullyQualifiedTypeName name="kr.co.ezenac.reference.Student"/>
-    <fullyQualifiedTypeName name="java.lang.Object"/>
-    <fullyQualifiedTypeName name="kr.co.ezenac.collabration.Bus"/>
-    <fullyQualifiedTypeName name="kr.co.ezenac.collabration.Student"/>
-    <fullyQualifiedTypeName name="kr.co.ezenac.collabration.Subway"/>
-    <fullyQualifiedTypeName name="kr.co.ezenac.collabration02.Student"/>
-    <fullyQualifiedTypeName name="kr.co.ezenac.collabration02.Taxi"/>
-    <fullyQualifiedTypeName name="kr.co.ezenac.global.Cat"/>
-    <fullyQualifiedTypeName name="java.util.Random"/>
-    <fullyQualifiedTypeName name="kr.co.ezenac.runfirst.Ex1.Solution"/>
-    <fullyQualifiedTypeName name="kr.co.ezenac.global02.Employee"/>
-    <fullyQualifiedTypeName name="kr.co.ezenac.singleton.CompanyTest"/>
-    <fullyQualifiedTypeName name="kr.co.ezenac.singleton.Company"/>
-    <fullyQualifiedTypeName name="kr.co.ezenac.singleton02.CarFactory"/>
-    <fullyQualifiedTypeName name="kr.co.ezenac.singleton02.Car"/>
-    <fullyQualifiedTypeName name="ko.co.ezenac.array.CharArrayTest"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="ko.co.ezenac.array04.MyArray"/>
     <fullyQualifiedTypeName name="test0203.EzenArray"/>
@@ -30,7 +8,6 @@
     <fullyQualifiedTypeName name="ko.co.ezenac.arraylist.Student"/>
     <fullyQualifiedTypeName name="ko.co.ezenac.array03.Book"/>
     <fullyQualifiedTypeName name="ko.co.ezenac.arraylist02.Student"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="kr.co.ezenac.inheritance.Shape"/>
     <fullyQualifiedTypeName name="kr.co.ezenac.inheritance.Circle"/>
     <fullyQualifiedTypeName name="kr.co.ezenac.inheritance.Point"/>
@@ -41,7 +18,6 @@
     <fullyQualifiedTypeName name="kr.co.ezenac.polymorphism.Eagle"/>
     <fullyQualifiedTypeName name="kr.co.ezenac.polymorphism.AnimalTest"/>
     <fullyQualifiedTypeName name="kr.co.ezenac.polymorphism.Animal"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="kr.co.ezenac.membership.GoldCustomer"/>
     <fullyQualifiedTypeName name="kr.co.ezenac.membership.VIPCustomer"/>
     <fullyQualifiedTypeName name="kr.co.ezenac.membership.Customer"/>
@@ -58,6 +34,30 @@
     <fullyQualifiedTypeName name="javax.print.DocFlavor.READER"/>
     <fullyQualifiedTypeName name="kr.co.ezenac.interface2.RemoteControl"/>
     <fullyQualifiedTypeName name="kr.co.ezenac.interface2.Television"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.util.Properties"/>
     <fullyQualifiedTypeName name="kr.co.ezenac.utillinterface.userInfo.UserInfoDTO"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.utillinterface.userInfo.dao.postgres.UserInfoPostgresDAO"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.utillinterface.userInfo.dao.orcle.UserInfoOracleDAO"/>
     <fullyQualifiedTypeName name="kr.co.ezenac.utillinterface.userInfo.dao.UserInfoDAO"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.utillinterface.userInfo.dao.mysql.UserInfoMySqlDAO"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.interface3.MyInterface"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.interface4.Buy"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.interface4.Customer"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.interface4.Sell"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.interface5.MyInterface"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.interface5.MyClass"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.interface6.BookShelf"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.interface6.Queue"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.interface6.MyBookShelf"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.total.BeginnerLevel"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.total.Player"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.total.AdvanceLevel"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.total.PlayerLevel"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.total.SuperLevel"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.Object.Book"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.Object.Student"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>
