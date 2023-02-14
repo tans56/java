@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="kr.co.ezenac.utillinterface.userInfo.dao.postgres.UserInfoPostgresDAO"/>
-    <fullyQualifiedTypeName name="kr.co.ezenac.utillinterface.userInfo.dao.orcle.UserInfoOracleDAO"/>
-    <fullyQualifiedTypeName name="kr.co.ezenac.utillinterface.userInfo.dao.UserInfoDAO"/>
-    <fullyQualifiedTypeName name="kr.co.ezenac.utillinterface.userInfo.dao.mysql.UserInfoMySqlDAO"/>
-    <fullyQualifiedTypeName name="kr.co.ezenac.interface3.MyInterface"/>
-    <fullyQualifiedTypeName name="kr.co.ezenac.interface4.Buy"/>
-    <fullyQualifiedTypeName name="kr.co.ezenac.interface4.Customer"/>
-    <fullyQualifiedTypeName name="kr.co.ezenac.interface4.Sell"/>
-    <fullyQualifiedTypeName name="kr.co.ezenac.interface5.MyInterface"/>
-    <fullyQualifiedTypeName name="kr.co.ezenac.interface5.MyClass"/>
-    <fullyQualifiedTypeName name="kr.co.ezenac.interface6.BookShelf"/>
-    <fullyQualifiedTypeName name="kr.co.ezenac.interface6.Queue"/>
     <fullyQualifiedTypeName name="kr.co.ezenac.interface6.MyBookShelf"/>
     <fullyQualifiedTypeName name="kr.co.ezenac.total.BeginnerLevel"/>
     <fullyQualifiedTypeName name="kr.co.ezenac.total.Player"/>
@@ -57,7 +45,19 @@
     <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="java.util.Map.Entry"/>
     <fullyQualifiedTypeName name="java.util.Iterator"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="kr.co.ezenac.map.MemberHashMap"/>
     <fullyQualifiedTypeName name="org.graalvm.compiler.core.amd64.AMD64NodeMatchRules_MatchStatementSet"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.innerclass.OutClass"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.innerclass.OutClass.InClass"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.innerclass.OutClass.InStaticClass"/>
+    <fullyQualifiedTypeName name="MyRunnable"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.innerclass.Outer"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.innerclass.Outter"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.lambda02.MyNumber"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.lambda03.Adder"/>
+    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+    <fullyQualifiedTypeName name="java.util.function.Function"/>
 </qualifiedTypeNameHistroy>
