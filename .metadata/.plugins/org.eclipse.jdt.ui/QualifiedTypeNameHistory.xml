@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="kr.co.ezenac.interface6.MyBookShelf"/>
-    <fullyQualifiedTypeName name="kr.co.ezenac.total.BeginnerLevel"/>
     <fullyQualifiedTypeName name="kr.co.ezenac.total.Player"/>
     <fullyQualifiedTypeName name="kr.co.ezenac.total.AdvanceLevel"/>
     <fullyQualifiedTypeName name="kr.co.ezenac.total.PlayerLevel"/>
@@ -31,7 +29,6 @@
     <fullyQualifiedTypeName name="kr.co.ezenac.list.MemberArrayList"/>
     <fullyQualifiedTypeName name="java.lang.reflect.Member"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="kr.co.ezenac.set.MemberHashSet"/>
     <fullyQualifiedTypeName name="kr.co.ezenac.list.Member"/>
@@ -60,4 +57,7 @@
     <fullyQualifiedTypeName name="kr.co.ezenac.lambda03.Adder"/>
     <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
     <fullyQualifiedTypeName name="java.util.function.Function"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.ex.MyStack"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="kr.co.ezenac.ex.MyQueue"/>
 </qualifiedTypeNameHistroy>
