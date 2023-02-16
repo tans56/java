@@ -1,6 +1,11 @@
 package kr.co.ezenac.project.ui;
 
 import kr.co.ezenac.project.School.School;
+import kr.co.ezenac.project.School.Score;
+import kr.co.ezenac.project.School.Student;
+import kr.co.ezenac.project.School.Subject;
+import kr.co.ezenac.project.School.view.GenerateGradeDisplay;
+import kr.co.ezenac.project.utils.Constants;
 
 
 /*
@@ -44,7 +49,7 @@ import kr.co.ezenac.project.School.School;
  * 
  * 		학점 결과를 아래와 같이 나올 수 있도록 구현하시오.
  * 		
- * 		국어과목 학점 결과 >>>
+ * 			국어과목 학점 결과 >>>
  * 		--------------------------------------------
  * 		이름 			학번			필수		점수		학점
  * 		--------------------------------------------
@@ -53,9 +58,9 @@ import kr.co.ezenac.project.School.School;
  * 		리누스토발즈  20230215		국어		100		 S
  * 		제임스고슬링  20230216		국어		89		 B
  * 		이도		  20230217		컴퓨터	83		 B
+ * 		============================================
  * 		
- * 		
- * 		수학과목 학점 결과 >>>
+ * 			수학과목 학점 결과 >>>
  * 		--------------------------------------------
  * 		이름 			학번			필수		점수		학점
  * 		--------------------------------------------
@@ -64,7 +69,7 @@ import kr.co.ezenac.project.School.School;
  * 		리누스토발즈  20230215		국어		88		 B
  * 		제임스고슬링  20230216		국어		94		 A
  * 		이도		  20230217		컴퓨터	56		 D
- * 
+ * 		============================================
  * 		학점 정책이 추가되는 경우를 고려해서 객체를 설계하고
  * 		인터페이스를 선언해서 각 정책이 해당 인터페이스를 구현하도록 합니다.
  * 
@@ -72,6 +77,20 @@ import kr.co.ezenac.project.School.School;
  * 3. 구현
  * 4. 테스트
  * 5. 업그레이드
+ * 		- 과목과 학점 정책 추가 요구사항 생김
+ * 			- 골프 과목이 새로 개설되고 이 과목의 평가 정책은 pass / fail로 정해짐
+ * 			- 70점 이상인 경우 pass, 미만인 경우는 fail임
+ * 			- 전체 5명중 3명만 이 과목에 수강신청 함
+ * 		- 학점 결과를 아래와 같이 나올수 있도록 구현하시오.
+ * 			
+ * 			골프과목 학점 결과 >>>
+ * 		--------------------------------------------
+ * 		이름 			학번			필수		점수		학점
+ * 		--------------------------------------------
+ * 		스티브잡스	  20230213		국어		95		 P
+ * 		이순신	  20230214		컴퓨터	85		 P
+ * 		리누스토발즈  20230215		국어		55		 F 
+ * 		============================================		getscoregrade 바뀜, creatsubject추가
  * 
  * * Builder Pattern
  *  1) GoF 디자인 패턴에서의 빌더 패턴
@@ -86,22 +105,86 @@ public class UiMain {
 	
 	
 	School ezenSchool = School.getInstance();
-
+	GenerateGradeDisplay gradeDisplay = new GenerateGradeDisplay();
+	Subject korean;
+	Subject math;
+	Subject golf;
+	
 	public static void main(String[] args) {
 		UiMain uimain = new UiMain();
 		
 		uimain.createSubject();				//시험 과목 생성
 		uimain.createStudent();				//시험 학생 생성
 		
+		String display = uimain.gradeDisplay.getDisplay();
+		System.out.println(display);
 	}
 
 	public void createStudent() {
-		// TODO Auto-generated method stub
+		Student student1 = new Student("스티브잡스", 20230213, korean);
+		Student student2 = new Student("이순신", 20230214, math);
+		Student student3 = new Student("리누스토발즈", 20230215, korean);
+		Student student4 = new Student("제임스고슬링", 20230216, korean);
+		Student student5 = new Student("이도", 20230217, math);
+		
+		ezenSchool.addStudent(student1);
+		ezenSchool.addStudent(student2);
+		ezenSchool.addStudent(student3);
+		ezenSchool.addStudent(student4);
+		ezenSchool.addStudent(student5);
+		
+		korean.register(student1);
+		korean.register(student2);
+		korean.register(student3);
+		korean.register(student4);
+		korean.register(student5);
+		
+		math.register(student1);
+		math.register(student2);
+		math.register(student3);
+		math.register(student4);
+		math.register(student5);
+		
+		golf.register(student1);
+		golf.register(student2);
+		golf.register(student3);		
+		
+		//과목별 성적
+		addScoreForStudent(student1, korean, 95);
+		addScoreForStudent(student1, math, 56);
+		addScoreForStudent(student1, golf, 95);
+
+		addScoreForStudent(student2, korean, 94);
+		addScoreForStudent(student2, math, 98);
+		addScoreForStudent(student2, golf, 85);
+		
+		addScoreForStudent(student3, korean, 100);
+		addScoreForStudent(student3, math, 88);
+		addScoreForStudent(student3, golf, 55);
+		
+		addScoreForStudent(student4, korean, 89);
+		addScoreForStudent(student4, math, 94);
+		
+		addScoreForStudent(student5, korean, 83);
+		addScoreForStudent(student5, math, 56);
 		
 	}
 
+	private void addScoreForStudent(Student student, Subject subject, int score) {
+		Score score1 = new Score(student.getStudentId(), subject, score);
+		student.addSubjectScore(score1);
+	}
+
 	public void createSubject() {
-		// TODO Auto-generated method stub
+		korean = new Subject(Constants.KOREAN, "국어");
+		math = new Subject(Constants.MATH, "수학");
+		golf = new Subject(Constants.GOLF, "골프");
+		
+		golf.setGradeType(Constants.PF_TYPE);
+		
+		ezenSchool.addSubject(korean);
+		ezenSchool.addSubject(math);
+		ezenSchool.addSubject(golf);
 		
 	}
 }

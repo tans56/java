@@ -42,4 +42,8 @@ public class Student {
 	public void addSubjectScore(Score score) {
 		scores.add(score);
 	}
+	
+	public ArrayList<Score> getScores(){
+		return scores;
+	}
 }
