@@ -44,13 +44,13 @@ public class GenerateGradeDisplay {
 		return buffer.toString();
 	}
 
-	private void makeFooter(Subject subject) {
+	public void makeFooter(Subject subject) {
 		buffer.append(GenerateGradeDisplay.LINE2);
 		buffer.append("\n");
 		
 	}
 
-	private void makeBody(Subject subject) {
+	public void makeBody(Subject subject) {
 		ArrayList<Student> students = subject.getStudents();
 		for(int i=0; i<students.size(); i++) {
 			Student student = students.get(i);
