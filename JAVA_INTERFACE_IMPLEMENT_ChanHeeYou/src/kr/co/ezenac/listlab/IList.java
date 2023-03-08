@@ -1,3 +1,5 @@
+package kr.co.ezenac.listlab;
+
 public interface IList<T> {
 
     void addList(T t);                  //리스트에 요소를 추가하는 메소드 (순차적 삽입)
@@ -18,7 +20,7 @@ public interface IList<T> {
 
     boolean containsElement(T t);               // 리스트에 요소가 있는지 확인하는 메소드 (특정 요소 포함 확인하기)
 
-    int size();                                 // 리스트에 들어있는 요소의 갯수 리턴해주는 메소드 (요소 사이즈 확인하기)
+    int listSize();                                 // 리스트에 들어있는 요소의 갯수 리턴해주는 메소드 (요소 사이즈 확인하기)
 
     void printAllElement();                     // 리스트의 모든 요소 출력해주는 메소드 (리스트 내용 출력하기 )
 }
