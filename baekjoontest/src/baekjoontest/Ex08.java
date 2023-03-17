@@ -23,6 +23,5 @@ public class Ex08 {
 
         Ex08 sol = new Ex08();
         System.out.println(sol.solution(100));
-        Arrays
     }
 }
